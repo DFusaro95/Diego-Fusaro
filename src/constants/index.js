@@ -1,7 +1,6 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -18,6 +17,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  gerardo,
+  paula,
+  benjamin
 } from "../assets";
 
 export const navLinks = [
@@ -108,12 +110,12 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "NN",
+    company_name: "SoftSol",
     icon: reactjs,
     iconBg: "#383E56",
     date: "December 2022 - June 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using React.js, TailwindCSS and other libraries.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -126,10 +128,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "June 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Working with some local clients to transform their ideas to real world applications.",
+      "Had to learn some Backend to make the products escalable and improving the server-side.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Making the process with my costumers fun helping with design and showing them weekly progress.",
     ],
   },
   {
@@ -139,10 +141,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "June 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining mobile applications using React Native for local clients.",
+      "Had to learn React Native technology to make sure that my products are high-quality from scratch.",
+      "Working with VSCode and Android Studio make me ensure all the needs that the costumer have.",
+      "Participating in weekly calls to improve the functionalities that the applications need.",
     ],
   },
 ];
@@ -150,27 +152,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Working with Diego was awesome! he's always open to new ideas and ready to collaborate and help in whatever we need, as a company and personally.",
+    name: "Gerardo Arroyo",
+    designation: "Senior QA",
+    company: "SoftSol",
+    image: gerardo,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Work with Diego made my dream to have my own company website and manage my business through it. I presented him some ideas and he showed me a few days later the designs that he made from that and started to work inmediately. Amazing work!",
+    name: "Moreno Paula",
+    designation: "CEO",
+    company: "Akash-Almico",
+    image: paula,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "As my student, Diego consistently demonstrated a willingness to assist others in comprehending complex subjects, while also being adept at seeking assistance when he himself required it.",
+    name: "Benjamin Flores",
+    designation: "Academlo Instructor",
+    company: "Academlo",
+    image: benjamin,
   },
 ];
 

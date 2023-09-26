@@ -31,6 +31,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import gerardo from "./gerardo.jpg";
+import paula from "./paula.jpg";
+import benjamin  from "./benjamin.jpg";
+
 export {
   logo,
   backend,
@@ -61,4 +65,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  gerardo,
+  paula,
+  benjamin,
 };
